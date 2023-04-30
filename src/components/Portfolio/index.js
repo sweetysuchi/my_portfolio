@@ -3,6 +3,8 @@ import Loader from "react-loaders";
 import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
 import Ecommerce from "../../assets/images/images.jpg"
+import PortfolioImage from "../../assets/images/portfolio_image.jpg"
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faAngular,
@@ -23,12 +25,12 @@ const Portfolio = () => {
       description: 'Implemented and deployed a full stack Ecommerce website with basic products, cart and payment functionality using NextJS',
       url: 'https://ecommerce-sanity-stripe-lac-phi.vercel.app/',
     },
-    // {
-    //   name: 'Project 2',
-    //   image: 'https://example.com/project2.png',
-    //   description: 'This is a description of project 2.',
-    //   url: 'https://example.com/project2',
-    // },
+    {
+      name: 'Portfolio',
+      image: PortfolioImage,
+      description: 'Simple portfolio website using ReactJs, HTML, CSS, and Bootstrap',
+      url: 'https://my-portfolio-sweetysuchi.vercel.app/',
+    },
     // Add more projects as needed
   ]);
 
