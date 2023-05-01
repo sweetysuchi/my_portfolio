@@ -95,12 +95,13 @@ return (
             <h1 className="page-title">
                 <AnimatedLetters
                     letterClass={letterClass}
-                    strArray={"Portfolio".split("")}
+                    strArray={"Projects".split("")}
                     idx={15}
                 />
             </h1>
             <div>{renderPortfolio(portfolio)}</div>
         </div>
+        
         <div className="stage-cube-cont">
     <div className="cubespinner">
       <div className="face1">
