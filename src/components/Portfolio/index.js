@@ -36,7 +36,7 @@ const Portfolio = () => {
       url: 'https://school-website-rosy.vercel.app/',
     },
     {
-      name: 'youTube_2.0',
+      name: 'YouTube_2.0',
       image: YouTubeImage,
       description: 'Build and Deploy a Modern YouTube Clone Application in React JS with Material UI 5 | RapidAPI',
       url: 'https://you-tube-2-0.vercel.app/',
