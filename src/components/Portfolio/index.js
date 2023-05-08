@@ -4,6 +4,10 @@ import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
 import Ecommerce from "../../assets/images/images.jpg"
 import PortfolioImage from "../../assets/images/portfolio_image.jpg"
+import SchoolImage from "../../assets/images/school.png"
+import YouTubeImage from "../../assets/images/youtube.png"
+
+
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
@@ -26,11 +30,25 @@ const Portfolio = () => {
       url: 'https://ecommerce-sanity-stripe-lac-phi.vercel.app/',
     },
     {
+      name: 'School-Website',
+      image: SchoolImage,
+      description: 'School website project using JavaScript, HTML, and CSS aims to create an engaging and informative online platform for students, parents, and teachers to access school-related information and resources',
+      url: 'https://school-website-rosy.vercel.app/',
+    },
+    {
+      name: 'youTube_2.0',
+      image: YouTubeImage,
+      description: 'Build and Deploy a Modern YouTube Clone Application in React JS with Material UI 5 | RapidAPI',
+      url: 'https://you-tube-2-0.vercel.app/',
+    },
+    {
       name: 'Portfolio',
       image: PortfolioImage,
       description: 'Simple portfolio website using ReactJs, HTML, CSS, and Bootstrap',
       url: 'https://my-portfolio-sweetysuchi.vercel.app/',
     },
+
+
     // Add more projects as needed
   ]);
 
@@ -102,7 +120,7 @@ return (
             <div>{renderPortfolio(portfolio)}</div>
         </div>
         
-        <div className="stage-cube-cont">
+        {/* <div className="stage-cube-cont">
     <div className="cubespinner">
       <div className="face1">
         <FontAwesomeIcon icon={faAngular} color="#DD0031" />
@@ -124,7 +142,7 @@ return (
       </div>
     </div>
   </div>
-
+ */}
         <Loader type="pacman" />
     </>
 );
